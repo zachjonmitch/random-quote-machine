@@ -1,0 +1,79 @@
+body {
+  background-color: grey;
+  font-family: 'Raleway', sans-serif;
+}
+
+div {
+  position: relative;
+}
+
+.box {
+  width: 550px;
+  height: 225px;
+  color: white;
+  background-color: white;
+  border-radius: 3px;
+  margin: auto;
+  margin-top: 20%;  
+}
+
+.button {
+  height: 35px;
+  width: 90px;
+  background-color: grey;
+  position: absolute; 
+  bottom: 35px;
+  left: 75%;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+.button span {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 9.5px;
+  position: absolute;
+  margin-left: 9px;
+}
+
+.social {
+  width: 35px;
+  height: 35px;
+  background-color: grey;
+  bottom: 35px;
+  left: 50px;
+  position: absolute;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.social:hover {
+  opacity: 0.9;
+}
+
+.fa-twitter {
+  margin: 10px 10px 10px 8px;
+  position: absolute;
+  color: white;
+}
+
+.quote {
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 40px;
+}
+
+.author {
+  color: black;
+  font-size: 18px;
+  width: 115px;
+  height: 35px;
+  float: right;
+  margin-right: 48px;
+  margin-top: 25px;
+}
